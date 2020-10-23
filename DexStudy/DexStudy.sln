@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetsOop", "PetsOop\PetsOop.csproj", "{035CF3DC-1BB9-4DB1-BFA8-22CD6D1625F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetsOop", "PetsOop\PetsOop.csproj", "{035CF3DC-1BB9-4DB1-BFA8-22CD6D1625F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{458B2346-EF1E-4B09-804C-8388FEF5FABC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{035CF3DC-1BB9-4DB1-BFA8-22CD6D1625F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{035CF3DC-1BB9-4DB1-BFA8-22CD6D1625F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{035CF3DC-1BB9-4DB1-BFA8-22CD6D1625F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458B2346-EF1E-4B09-804C-8388FEF5FABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458B2346-EF1E-4B09-804C-8388FEF5FABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458B2346-EF1E-4B09-804C-8388FEF5FABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458B2346-EF1E-4B09-804C-8388FEF5FABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
