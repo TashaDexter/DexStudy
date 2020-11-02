@@ -1,6 +1,6 @@
 ﻿namespace PetsOop
 {
-    public abstract class Pet : IAnimal
+    public abstract class Pet
     {
         public string Name { get; set; }
 

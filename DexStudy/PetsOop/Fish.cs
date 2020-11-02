@@ -6,12 +6,6 @@ namespace PetsOop
     {
         public Fish()
         {
-            Name = "NoName";
-        }
-
-        public Fish(string name)
-        {
-            Name = name;
         }
 
         public override void MakeSound()

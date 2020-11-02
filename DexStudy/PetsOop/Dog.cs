@@ -6,12 +6,6 @@ namespace PetsOop
     {
         public Dog()
         {
-            Name = "NoName";
-        }
-
-        public Dog(string name)
-        {
-            Name = name;
         }
 
         public override void MakeSound()

@@ -13,29 +13,40 @@ namespace PetsOop
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello!\nHow many pets do you want to add? ");
-            int n = Int32.Parse(Console.ReadLine());
-
             var pets = new List<Pet>();
-            for (int i = 0; i < n; i++)
+            try
             {
-                Console.WriteLine("--------------------------------\n" +
-                "Which pet would you like to add?\n1 - Cat, 2 - Dog, 3 - Fish ");
-                int petCode = Int32.Parse(Console.ReadLine());
-                var pet = GetPetByCode(petCode);
+                Console.WriteLine("Hello!\nHow many pets do you want to add? ");
+                int n = Int32.Parse(Console.ReadLine());
 
-                if (pet != null)
+                for (int i = 0; i < n; i++)
                 {
-                    Console.WriteLine("What is your pet's name?");
-                    pet.Name = Console.ReadLine();
+                    Console.WriteLine("--------------------------------\n" +
+                    "Which pet would you like to add?\n1 - Cat, 2 - Dog, 3 - Fish ");
+                    int petCode = Int32.Parse(Console.ReadLine());
+                    var pet = GetPetByCode(petCode);
 
-                    pets.Add(pet);
+                    if (pet != null)
+                    {
+                        Console.WriteLine("What is your pet's name?");
+                        pet.Name = Console.ReadLine();
+                        pets.Add(pet);
+                    }
                 }
             }
-
-            PrintPets(pets);
-
-            Console.ReadKey();
+            catch (System.FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (Exception any)
+            {
+                Console.WriteLine(any.Message);
+            }
+            finally
+            {
+                PrintPets(pets);
+                Console.ReadKey();
+            }
         }
 
         private static Pet GetPetByCode(int code)
