@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EoWL5WaVEslOXcb3UE/a5OMChus06x5amNzIiSn0zb1NePpMX30NK3qRc4JjNF5cEWQSXDfNzfxmfHYssIX13w==",
+  "success": true,
+  "projectFilePath": "D:\\Dex\\DexStudy\\DexStudy\\PetsOop\\PetsOop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tasha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Tasha\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Tasha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Tasha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
