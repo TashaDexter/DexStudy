@@ -33,3 +33,5 @@ D:\Dex\DexStudy-f8ac0062db3146e061bbe9597e2d24c972443fed\DexStudy-f8ac0062db3146
 D:\Dex\DexStudy-f8ac0062db3146e061bbe9597e2d24c972443fed\DexStudy-f8ac0062db3146e061bbe9597e2d24c972443fed\DexStudy\PetsOop\obj\Debug\netcoreapp3.0\PetsOop.dll
 D:\Dex\DexStudy-f8ac0062db3146e061bbe9597e2d24c972443fed\DexStudy-f8ac0062db3146e061bbe9597e2d24c972443fed\DexStudy\PetsOop\obj\Debug\netcoreapp3.0\PetsOop.pdb
 D:\Dex\DexStudy-f8ac0062db3146e061bbe9597e2d24c972443fed\DexStudy-f8ac0062db3146e061bbe9597e2d24c972443fed\DexStudy\PetsOop\obj\Debug\netcoreapp3.0\PetsOop.genruntimeconfig.cache
+D:\Dex\DexStudy\DexStudy\PetsOop\obj\Debug\netcoreapp3.0\PetsOop.csproj.CoreCompileInputs.cache
+D:\Dex\DexStudy\DexStudy\PetsOop\obj\Debug\netcoreapp3.0\PetsOop.genruntimeconfig.cache

@@ -14,39 +14,45 @@ namespace PetsOop
         private static void Main(string[] args)
         {
             var pets = new List<Pet>();
-            try
-            {
-                Console.WriteLine("Hello!\nHow many pets do you want to add? ");
-                int n = Int32.Parse(Console.ReadLine());
 
-                for (int i = 0; i < n; i++)
+            int petsNumber;
+            Console.WriteLine("Hello!\nHow many pets do you want to add? ");
+            string inputNumber = Console.ReadLine();
+            if (Int32.TryParse(inputNumber, out petsNumber))
+            {
+                for (int i = 0; i < petsNumber; i++)
                 {
+                    int petCode;
                     Console.WriteLine("--------------------------------\n" +
                     "Which pet would you like to add?\n1 - Cat, 2 - Dog, 3 - Fish ");
-                    int petCode = Int32.Parse(Console.ReadLine());
-                    var pet = GetPetByCode(petCode);
-
-                    if (pet != null)
+                    string inputCode = Console.ReadLine();
+                    if (Int32.TryParse(inputCode, out petCode))
                     {
-                        Console.WriteLine("What is your pet's name?");
-                        pet.Name = Console.ReadLine();
-                        pets.Add(pet);
+                        var pet = GetPetByCode(petCode);
+
+                        if (pet != null)
+                        {
+                            Console.WriteLine("What is your pet's name?");
+                            pet.Name = Console.ReadLine();
+                            pets.Add(pet);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error! Code is incorrect.");
                     }
                 }
             }
-            catch (System.FormatException e)
+            else
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine("Error! You entered incorrect value.");
             }
-            catch (Exception any)
-            {
-                Console.WriteLine(any.Message);
-            }
-            finally
+
+            if (pets.Count != 0)
             {
                 PrintPets(pets);
-                Console.ReadKey();
             }
+            Console.ReadKey();
         }
 
         private static Pet GetPetByCode(int code)
@@ -56,23 +62,19 @@ namespace PetsOop
                 case 1:
                     {
                         return new Cat();
-                        break;
                     }
                 case 2:
                     {
                         return new Dog();
-                        break;
                     }
                 case 3:
                     {
                         return new Fish();
-                        break;
                     }
                 default:
                     {
                         Console.WriteLine("Error! Code is incorrect.");
                         return null;
-                        break;
                     }
             }
         }
