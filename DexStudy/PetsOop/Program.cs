@@ -9,6 +9,7 @@ namespace PetsOop
      с применением всех принципов ООП, продемонстрировать в приложении (консоль).
      Области для примера: животные, автомашины, геометр. фигуры, и т.д.*/
 
+    /*Checking .gitignore*/
     public class PetsOoP
     {
         private static void Main(string[] args)
