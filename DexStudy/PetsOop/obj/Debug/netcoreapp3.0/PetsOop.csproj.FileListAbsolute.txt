@@ -20,3 +20,5 @@ D:\Dex\DexStudy\DexStudy\PetsOop\bin\Debug\netcoreapp3.0\PetsOop.runtimeconfig.j
 D:\Dex\DexStudy\DexStudy\PetsOop\bin\Debug\netcoreapp3.0\PetsOop.runtimeconfig.dev.json
 D:\Dex\DexStudy\DexStudy\PetsOop\bin\Debug\netcoreapp3.0\PetsOop.dll
 D:\Dex\DexStudy\DexStudy\PetsOop\bin\Debug\netcoreapp3.0\PetsOop.pdb
+D:\Dex\DexStudy\DexStudy\PetsOop\obj\Debug\netcoreapp3.0\PetsOop.csproj.CoreCompileInputs.cache
+D:\Dex\DexStudy\DexStudy\PetsOop\obj\Debug\netcoreapp3.0\PetsOop.genruntimeconfig.cache
