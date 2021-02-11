@@ -5,8 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ICloneable
-{   
-    
+{
+    /*Задание:
+    * Изучить интерфейс ICloneable
+    * Реализовать его на структуре данных члены которой все ValueType
+    * Поверхностное и глубокое копирование*/
 
     class Program
     {
