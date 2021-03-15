@@ -1,4 +1,5 @@
-﻿namespace Person
+﻿using System;
+namespace Person
 {
     class Person
     {

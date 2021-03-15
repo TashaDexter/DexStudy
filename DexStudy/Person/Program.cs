@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Person
 {
@@ -25,8 +21,8 @@ namespace Person
             Console.WriteLine("Сравнение при помощи ==: " + (s1 == p1));
             //при сравнении происходит неявное преобразование p1 в string, оба экземпляра строки
             //имеют одинаковую длину и идентичные символы в каждой позиции символа
-            Console.WriteLine("Сравнение при помощи Equals: " + s1.Equals(p1));
-            //в методе Equals p1 явно приводится к string, затем объекты сравниваются по имени
+            Console.WriteLine("Сравнение при помощи Equals: " + p1.Equals(s1));
+            //в методе Equals s1 явно приводится к Person, затем объекты сравниваются по имени
             Console.Read();
         }
     }
