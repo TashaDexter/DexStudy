@@ -18,6 +18,7 @@ namespace Enum
             };
 
             Feline felineList = new Feline(felineArray);
+            //при помощи foreach 
             Console.WriteLine("------Обход при помощи foreach-----");
             foreach (Cat cat in felineList)
                 Console.WriteLine(cat.Name);
@@ -30,8 +31,8 @@ namespace Enum
                 Console.WriteLine(felineList[i].Name);
                 i++;
             }
-            Console.Read();
 
+            Console.Read();
         }
     }
 }
