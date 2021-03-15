@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetsOop", "PetsOop\PetsOop.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "Person\Person.csproj", "{458B2346-EF1E-4B09-804C-8388FEF5FABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneable", "ICloneable\ICloneable.csproj", "{53D99FE1-5C73-47DC-82B5-A8038059DEAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyICloneable", "ICloneable\MyICloneable.csproj", "{53D99FE1-5C73-47DC-82B5-A8038059DEAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing", "Boxing\Boxing.csproj", "{33EF3DE4-F647-4E9A-B069-9177C141B845}"
 EndProject

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ICloneable
+namespace MyICloneable
 {
     /*Задание:
     * Изучить интерфейс ICloneable
@@ -26,6 +26,7 @@ namespace ICloneable
             f2.Room1.A = 7.85;
             f2.Room1.B = 6.45;
             Console.WriteLine("Проверка работы присваивания:");
+            Console.WriteLine("f1: Stage - " + f1.Stage + ", Number - " + f1.Number + ". Room1: A - " + f1.Room1.A + ", B - " + f1.Room1.B);
             Console.WriteLine("f2: Stage - " + f2.Stage + ", Number - " + f2.Number + ". Room1: A - " + f2.Room1.A + ", B - " + f2.Room1.B);
             Console.ReadKey();
         }
