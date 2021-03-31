@@ -9,6 +9,8 @@ namespace MyUniqueCollection
 {
     class Program
     {
+        //Реализовать коллекцию которая хранит только уникальные объекты UniqueCollection<T>,
+        //при попытке добавить существующий инстанс, выбрасывает исключение
         static void Main(string[] args)
         {
             UniqueCollection<int> int_collection = new UniqueCollection<int>();
@@ -25,6 +27,7 @@ namespace MyUniqueCollection
             {
                 Console.WriteLine(any.Message);
             }
+
             finally
             {
                 Console.WriteLine("Элементы коллекции:");
