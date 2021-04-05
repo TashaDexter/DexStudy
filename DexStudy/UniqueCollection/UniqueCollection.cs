@@ -27,7 +27,7 @@ namespace MyUniqueCollection
             }
             else
             {
-                throw new Exception("Невозможно добавить объект. Данный элемент уже существует в коллекции!");
+                throw new Exception("Невозможно добавить объект "+item+". Данный элемент уже существует в коллекции!");
             }
         }
 

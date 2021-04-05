@@ -56,5 +56,10 @@ namespace MyUniqueCollection
         {
             return person.FirstName + " " + person.LastName;
         }
+        //перегрузка метода ToString()
+        public override string ToString()
+        {
+            return FirstName + " " + LastName;
+        }
     }
 }
