@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typed dictionary", "Typed d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueCollection", "UniqueCollection\UniqueCollection.csproj", "{42F485B3-26CF-426E-AE33-796715315FEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Events", "14_Events\14_Events.csproj", "{A73A1855-5189-42C8-80FA-784EC941734E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{42F485B3-26CF-426E-AE33-796715315FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42F485B3-26CF-426E-AE33-796715315FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42F485B3-26CF-426E-AE33-796715315FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73A1855-5189-42C8-80FA-784EC941734E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73A1855-5189-42C8-80FA-784EC941734E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73A1855-5189-42C8-80FA-784EC941734E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73A1855-5189-42C8-80FA-784EC941734E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
